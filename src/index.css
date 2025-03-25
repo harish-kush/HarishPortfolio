@@ -1,0 +1,13 @@
+@import "tailwindcss";
+::selection{
+    background-color: black;
+    color: white;
+}
+@font-face {
+    font-family: 'fh1';
+    src: url('../src/assets/fonts/font1.ttf');
+}
+@font-face {
+    font-family: 'fh2';
+    src: url('../src/assets/fonts/font2.ttf');
+}
