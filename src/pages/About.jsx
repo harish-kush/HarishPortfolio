@@ -22,13 +22,13 @@ const About = () => {
       
       {/* Left Side - Profile Image */}
       <motion.div 
-        initial={{ opacity: 0, scale: 0.8 }} 
-        animate={{ opacity: 1, scale: 1 }} 
-        transition={{ duration: 1 }}
-        className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-blue-400 shadow-lg"
-      >
-        <img src={me} alt="Harish Kushwaha" className="w-full h-full object-cover" />
-      </motion.div>
+  initial={{ opacity: 0, scale: 0.8 }} 
+  animate={{ opacity: 1, scale: 1 }} 
+  transition={{ duration: 1 }}
+  className="hidden md:block w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-blue-400 shadow-lg"
+>
+  <img src={me} alt="Harish Kushwaha" className="w-full h-full object-cover" />
+</motion.div>
 
       {/* Right Side - About Me */}
       <div className="mt-6 md:mt-0 md:ml-12 text-center md:text-left">
