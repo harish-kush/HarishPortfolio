@@ -8,7 +8,6 @@ const About = () => {
     
     <section className="relative w-full h-screen flex flex-col md:flex-row items-center justify-center bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white overflow-hidden px-6">
       <Navbar/>
-      {/* Background Floating Blurry Circles */}
       <motion.div 
         className="absolute w-52 h-52 bg-blue-500 opacity-25 blur-[80px] rounded-full top-16 left-10"
         animate={{ x: [0, 30, 0], y: [0, 30, 0] }}
@@ -20,7 +19,7 @@ const About = () => {
         transition={{ duration: 7, repeat: Infinity, ease: "easeInOut" }}
       />
       
-      {/* Left Side - Profile Image */}
+     
       <motion.div 
   initial={{ opacity: 0, scale: 0.8 }} 
   animate={{ opacity: 1, scale: 1 }} 
@@ -30,7 +29,7 @@ const About = () => {
   <img src={me} alt="Harish Kushwaha" className="w-full h-full object-cover" />
 </motion.div>
 
-      {/* Right Side - About Me */}
+    
       <div className="mt-6 md:mt-0 md:ml-12 text-center md:text-left">
         <motion.h2 
           initial={{ opacity: 0, y: -20 }} 
@@ -47,7 +46,7 @@ const About = () => {
           style={{fontFamily:'fh2'}}
           className="mt-4 text-lg md:text-xl max-w-2xl leading-relaxed"
         >
-          Hi, I'm <span className="font-bold text-blue-400">Harish Kushwaha</span>, a <span className="text-blue-300">19-year-old B.Tech student</span> at 
+          Hi, I'm <span className="font-bold text-blue-400">Harish Kushwaha</span>, a <span className="text-blue-300">20-year-old B.Tech student</span> at 
           <span className="font-semibold text-blue-400"> MANIT Bhopal</span>.  
           I am a <span className="font-semibold text-blue-300">Technical Executive</span> at <span className="text-blue-400 font-semibold">Aaroha</span> and <span className="font-semibold text-[#14B8A6]">Web Developer</span> at <span className="text-[#14B8A6] font-semibold">FiNIT</span>, actively shaping the digital experience with <span className="text-blue-300">web & app development</span>. 
           
@@ -62,7 +61,7 @@ const About = () => {
           Always exploring new tech stacks and pushing creative boundaries!  
         </motion.p>
 
-        {/* Social Icons */}
+       
         <motion.div 
           initial={{ opacity: 0, y: 20 }} 
           animate={{ opacity: 1, y: 0 }}
