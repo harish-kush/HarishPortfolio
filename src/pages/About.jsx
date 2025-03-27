@@ -75,10 +75,10 @@ const About = () => {
             <FaInstagram className="text-3xl text-pink-500 hover:text-white transition-all duration-300" />
           </a>
           <a href="https://www.linkedin.com/in/harish-kushwaha-3895a428b/" target="_blank" rel="noopener noreferrer">
-            <FaLinkedin className="text-3xl text-blue-500 hover:text-white transition-all duration-300" />
+            <FaLinkedin className="text-3xl relative z-10 text-blue-500 hover:text-white transition-all duration-300" />
           </a>
           <a href="https://leetcode.com/u/harishk_ush_05/" target="_blank" rel="noopener noreferrer">
-            <SiLeetcode className="text-3xl text-yellow-500 hover:text-white transition-all duration-300" />
+            <SiLeetcode className="text-3xl relative z-10 text-yellow-500 hover:text-white transition-all duration-300" />
           </a>
         </motion.div>
         <motion.a 
