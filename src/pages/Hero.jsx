@@ -45,9 +45,7 @@ const Hero = () => {
       </motion.p>
 
       <div className="w-full h-[50vh] flex justify-center items-center">
-        <Suspense fallback={<PCLoader />}>
           <PCModel />
-        </Suspense>
       </div>
 
       <div 
