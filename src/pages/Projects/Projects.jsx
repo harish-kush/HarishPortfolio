@@ -41,7 +41,7 @@ const slidesData = [
     {
         imgSrc: ochi,
         title: 'Ochi Design Clone',
-        description: 'A 3D interactive solar system built using Three.js, featuring realistic planet orbits, textures, and animations for an immersive space experience.',
+        description: `This project is a pixel-perfect clone of the OCHI Design website, known for its minimalist, sleek, and interactive UI/UX design. The clone replicates OCHI's signature smooth animations, bold typography, and elegant transitions.`,
         visit: 'https://ochi-design-nu.vercel.app/',
         categories: ['React', 'Framer Motion']
     },
