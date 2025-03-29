@@ -5,7 +5,7 @@ import { FaGraduationCap, FaBriefcase } from "react-icons/fa";
 const timelineData = [
   {
     type: "education",
-    year: "2022 - 2026",
+    year: "2023 - 2027",
     title: "B.Tech in Electronics & Communication",
     institution: "MANIT Bhopal",
     description: "Currently pursuing my Bachelor's degree with a strong focus on development and problem-solving skills."
@@ -14,13 +14,13 @@ const timelineData = [
     type: "experience",
     year: "2024 - Present",
     title: "Technical Executive - Aaroha",
-    institution: "Aaroha, MANIT Bhopal",
+    institution: "NGO, MANIT Bhopal",
     description: "Worked on Aaroha's app and website, implementing interactive UI and seamless navigation where I learned alot about Flutter and Dart."
   },
   {
     type: "experience",
     year: "2024 - Present",
-    title: "Frontend Developer - FiNIT",
+    title: "Web Developer - FiNIT",
     institution: "Finance Society, MANIT Bhopal",
     description: "Developed and maintaining the official website of FiNIT where I learned alot about using React, GSAP, and TailwindCSS."
   },
