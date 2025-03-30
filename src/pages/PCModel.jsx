@@ -13,7 +13,10 @@ const PCModel = () => {
         <Suspense fallback={<PCLoader/>}>
           <Model />
         </Suspense>
-        <OrbitControls enableZoom={false} />
+        <OrbitControls
+         enableZoom={false}
+         maxPolarAngle={Math.PI/2.5}
+         />
       </Canvas>
     </div>
   );
