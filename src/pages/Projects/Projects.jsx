@@ -11,12 +11,15 @@ import apple from '../../assets/projects/apple.png'
 import ochi from '../../assets/projects/ochi.png'
 const slidesData = [
     {
-        imgSrc: finit,
-        title: 'FiNIT Website',
-        description: 'FiNITs official website, built with React, GSAP, and Tailwind CSS, showcases its initiatives in finance, investment, and data analysis while providing resources and event updates.',
-        visit: 'https://finitb.in/',
-        categories: ['React', 'Tailwind CSS','GSAP']
+        imgSrc: ochi,
+        title: 'Ochi Design Clone',
+        description: `This project is a pixel-perfect clone of the OCHI Design website, known for its minimalist, sleek, and interactive UI/UX design. The clone replicates OCHI's signature smooth animations, bold typography, and elegant transitions.`,
+        visit: 'https://ochi-design-nu.vercel.app/',
+        categories: ['React', 'Framer Motion']
     },
+    
+    
+    
     {
         imgSrc: solar,
         title: 'Solar System',
@@ -24,13 +27,15 @@ const slidesData = [
         visit: 'https://solar-system-lovat-phi.vercel.app/',
         categories: ['Vite', 'Three.js']
     },
+    
     {
-        imgSrc: spotify,
-        title: 'Spotify Clone',
-        description: 'A Spotify-inspired music player built with a sleek UI, smooth animations, and interactive features for an immersive listening experience.',
-        visit: 'https://spotify-orcin-three.vercel.app/',
-        categories: ['React', 'Tailwind CSS']
+        imgSrc: finit,
+        title: 'FiNIT Website',
+        description: 'FiNITs official website, built with React, GSAP, and Tailwind CSS, showcases its initiatives in finance, investment, and data analysis while providing resources and event updates.',
+        visit: 'https://finitb.in/',
+        categories: ['React', 'Tailwind CSS','GSAP']
     },
+    
     {
         imgSrc: apple,
         title: 'Apple Vision Pro Clone',
@@ -38,13 +43,16 @@ const slidesData = [
         visit:'https://apple-vision-pro-clone-red.vercel.app/',
         categories: ['HTML', 'CSS','GSAP']
     },
+
     {
-        imgSrc: ochi,
-        title: 'Ochi Design Clone',
-        description: `This project is a pixel-perfect clone of the OCHI Design website, known for its minimalist, sleek, and interactive UI/UX design. The clone replicates OCHI's signature smooth animations, bold typography, and elegant transitions.`,
-        visit: 'https://ochi-design-nu.vercel.app/',
-        categories: ['React', 'Framer Motion']
+        imgSrc: spotify,
+        title: 'Spotify Clone',
+        description: 'A Spotify-inspired music player built with a sleek UI, smooth animations, and interactive features for an immersive listening experience.',
+        visit: 'https://spotify-orcin-three.vercel.app/',
+        categories: ['React', 'Tailwind CSS']
     },
+    
+    
 ];
 const Projects = () => {
 
