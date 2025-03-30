@@ -1,12 +1,11 @@
 import { motion } from "framer-motion";
 import { useState, useEffect, lazy, Suspense } from "react";
-import PCLoader from "./PCLoader"; // Loader Component
+import PCLoader from "./PCLoader"; 
 
-// PCModel ko lazy load kar diya
 const PCModel = lazy(() => import("./PCModel"));
 
 const Hero = () => {
-  const text = "Hi, I'm Harish"; // Typewriter ke liye text
+  const text = "Hi, I'm Harish"; 
   const [displayText, setDisplayText] = useState("");
   const [index, setIndex] = useState(0);
 
@@ -15,7 +14,7 @@ const Hero = () => {
       const timeout = setTimeout(() => {
         setDisplayText((prev) => prev + text[index]);
         setIndex(index + 1);
-      }, 100); // Typing speed (adjustable)
+      }, 100); 
       return () => clearTimeout(timeout);
     }
   }, [index, text]);
