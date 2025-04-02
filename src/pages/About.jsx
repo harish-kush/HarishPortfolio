@@ -52,7 +52,7 @@ const About = () => {
           
           <br /><br />
 
-          I love <span className="text-[#14B8A6] font-semibold">Competitive Programming 💻 </span>and have a <span className="font-semibold text-blue-300">2-star rating on Codechef 🌟.</span>  
+          I love <span className="text-[#14B8A6] font-semibold">Competitive Programming 💻 </span>and have a <span className="font-semibold text-blue-300">2-star rating on Codechef.</span>  
           Strong in <span className="text-[#14B8A6] font-semibold">Data Structures & Algorithms (DSA)</span>, I enjoy solving challenging problems and continuously sharpening my problem-solving skills. 
 
           <br /><br />
