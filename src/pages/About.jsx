@@ -3,6 +3,7 @@ import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 import me from "../../src/assets/about.jpeg"
 import Navbar from "../components/Navbar";
+import { Scale } from "lucide-react";
 const About = () => {
   return (
     
@@ -52,12 +53,11 @@ const About = () => {
           
           <br /><br />
 
-          I love <span className="text-[#14B8A6] font-semibold">Competitive Programming 💻 </span>and have a <span className="font-semibold text-blue-300">2-star rating on Codechef.</span>  
-          Strong in <span className="text-[#14B8A6] font-semibold">Data Structures & Algorithms (DSA)</span>, I enjoy solving challenging problems and continuously sharpening my problem-solving skills. 
+          I love <span className="text-[#14B8A6] font-semibold">Competitive Programming 💻 </span>and have <span className="font-semibold text-blue-300">2-star rating on Codechef and achieved <span className="font-semibold text-blue-300">max rating of 1629 on</span> <span className="text-yellow-500">Leetcode</span>.</span> Strong in <span className="text-[#14B8A6] font-semibold">Data Structures & Algorithms (DSA)</span>, I enjoy solving challenging problems and continuously sharpening my problem-solving skills. 
 
           <br /><br />
 
-          Passionate about <span className="font-semibold text-blue-400">React</span> , <span className="text-[#14B8A6] font-semibold">GSAP</span>, and <span className="font-semibold">Three.js</span>, I build interactive & visually engaging UIs 🚀.  
+          Passionate about <span className="font-semibold text-blue-400">React</span> , <span className="text-[#14B8A6] font-semibold">GSAP</span>, and <span className="font-semibold">Three.js</span>, I build interactive & visually engaging UIs websites🚀.  
           Always exploring new tech stacks and pushing creative boundaries!  
         </motion.p>
 

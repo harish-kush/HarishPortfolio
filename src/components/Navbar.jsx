@@ -15,10 +15,18 @@ function Navbar() {
 
         {/* Desktop Menu */}
         <div style={{fontFamily:'fh2'}} className="hidden md:flex gap-6 text-lg">
-          <Link to="/" className="hover:text-blue-400 transition">Home</Link>
-          <Link to="/about" className="hover:text-blue-400 transition">About</Link>
-          <Link to="/projects" className="hover:text-blue-400 transition">Projects</Link>
-          <Link to="/contact" className="hover:text-blue-400 transition">Contact</Link>
+          <Link onClick={()=>{
+            window.scrollTo({top:0, behavior:'smooth'}); 
+          }} to="/" className="hover:text-blue-400 transition">Home</Link>
+          <Link onClick={()=>{
+            window.scrollTo({top:0, behavior:'smooth'}); 
+          }} to="/about" className="hover:text-blue-400 transition">About</Link>
+          <Link onClick={()=>{
+            window.scrollTo({top:0, behavior:'smooth'}); 
+          }} to="/projects" className="hover:text-blue-400 transition">Projects</Link>
+          <Link onClick={()=>{
+            window.scrollTo({top:0, behavior:'smooth'}); 
+          }} to="/contact" className="hover:text-blue-400 transition">Contact</Link>
         </div>
 
         {/* Mobile Menu Button */}
