@@ -85,7 +85,7 @@ const About = () => {
           initial={{ opacity: 0, y: 20 }} 
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 1 }}
-          href="/Harish_Resume.pdf" 
+          href="/harishResume.pdf" 
           download="Harish_Kushwaha_Resume.pdf" 
           className="mt-6 inline-block px-6 py-3 bg-blue-500 text-white text-lg font-semibold rounded-lg shadow-md hover:bg-blue-600 transition-all duration-300"
           >
