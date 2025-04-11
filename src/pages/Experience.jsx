@@ -58,7 +58,7 @@ const Experience = () => {
             <div className="w-12 h-12 flex items-center justify-center rounded-full bg-blue-500 text-white z-10 shadow-xl">
               {item.type === "education" ? <FaGraduationCap size={24} /> : <FaBriefcase size={24} />}
             </div>
-            <div style={{fontFamily:'fh2'}} className={`w-80 p-6 bg-gray-800 rounded-lg shadow-lg z-10 ${index % 2 === 0 ? "ml-6" : "mr-6"}`}>
+            <div style={{fontFamily:'fh2'}} className={`w-80 p-6 bg-gray-800 rounded-lg shadow-lg z-10 ${index % 2 === 0 ? "ml-6" : "mr-0"}`}>
               <h3 className="text-xl font-bold text-blue-300">{item.title}</h3>
               <p className="text-sm text-gray-400">{item.institution}</p>
               <p className="text-sm text-gray-400 mt-2">{item.year}</p>

@@ -9,6 +9,7 @@ import solar from '../../assets/projects/solar.png'
 import spotify from '../../assets/projects/spotify.png'
 import apple from '../../assets/projects/apple.png'
 import ochi from '../../assets/projects/ochi.png'
+import chat from '../../assets/projects/chat.png'
 const slidesData = [
     {
         imgSrc: ochi,
@@ -50,6 +51,13 @@ const slidesData = [
         description: 'A Spotify-inspired music player built with a sleek UI, smooth animations, and interactive features for an immersive listening experience.',
         visit: 'https://spotify-orcin-three.vercel.app/',
         categories: ['React', 'Tailwind CSS']
+    },
+    {
+        imgSrc: chat,
+        title: 'Buddy Chat',
+        description: 'A real-time chat application which supports instant messaging and responsive UI.',
+        visit: 'https://chat-app-8azh.onrender.com/',
+        categories: ['HTML', 'CSS', 'JS', 'Nodejs','ExpressJS','Socket.io']
     },
     
     
