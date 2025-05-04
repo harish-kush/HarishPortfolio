@@ -5,8 +5,6 @@ const Loader = ({ onComplete }) => {
   const [progress, setProgress] = useState(0);
   const [loaded, setLoaded] = useState(false);
 
-  const welcomeText = "Welcome to Harish's Portfolio";
-
   const containerVariants = {
     animate: {
       transition: {
@@ -62,27 +60,40 @@ const Loader = ({ onComplete }) => {
       </motion.div>
 
       <motion.h1
-        className="text-white text-4xl md:text-5xl font-bold tracking-wide flex flex-wrap justify-center"
+        className="text-white text-4xl md:text-5xl font-bold tracking-wide flex flex-col items-center text-center"
         variants={containerVariants}
         initial="initial"
         animate={progress > 5 ? "animate" : "initial"}
       >
-        {welcomeText.split("").map((char, index) => (
-          <motion.span
-            key={index}
-            variants={charVariants}
-            className="inline-block"
-          >
-            {char === " " ? "\u00A0" : char}
-          </motion.span>
-        ))}
+        
+        <span className="flex justify-center flex-wrap">
+          {"Welcome to".split("").map((char, index) => (
+            <motion.span
+              key={`line1-${index}`}
+              variants={charVariants}
+              className="inline-block"
+            >
+              {char === " " ? "\u00A0" : char}
+            </motion.span>
+          ))}
+        </span>
+
+        
+        <span className="flex justify-center flex-wrap">
+          {"Harish's Portfolio".split("").map((char, index) => (
+            <motion.span
+              key={`line2-${index}`}
+              variants={charVariants}
+              className="inline-block"
+            >
+              {char === " " ? "\u00A0" : char}
+            </motion.span>
+          ))}
+        </span>
       </motion.h1>
 
-      
       <div className="w-64 h-2 bg-gray-800 rounded-full overflow-hidden relative">
-        
         <div className="h-full bg-gray-800 absolute inset-0 rounded-full" />
-        
         <motion.div
           className="h-full bg-gradient-to-r from-indigo-500 via-pink-500 to-yellow-400 absolute inset-0 rounded-full"
           style={{ width: `${progress}%` }}
