@@ -3,7 +3,6 @@ import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 import me from "../../src/assets/about.jpeg"
 import Navbar from "../components/Navbar";
-import { Scale } from "lucide-react";
 const About = () => {
   return (
     

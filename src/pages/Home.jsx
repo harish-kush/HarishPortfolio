@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Navbar from '../components/Navbar'
 import Hero from './Hero'
 import PCModel from './PCModel'
@@ -10,16 +10,36 @@ import Contact from './Contact'
 import Footer from '../components/Footer'
 
 const Home = () => {
+  const [position, setPosition] = useState({ x: 0, y: 0 })
+
+  useEffect(() => {
+    const handleMouseMove = (e) => {
+      setPosition({ x: e.clientX, y: e.clientY })
+    }
+
+    window.addEventListener('mousemove', handleMouseMove)
+    return () => {
+      window.removeEventListener('mousemove', handleMouseMove)
+    }
+  }, [])
+
   return (
     <>
-    <Navbar/>
-    <Hero/>
-    <About/>
-    <Experience/>
-    <Skills/>
-    <Projects/>
-    <Contact/>
-    <Footer/>
+      <div
+        className="fixed z-[9999] w-4 h-4 bg-white rounded-full pointer-events-none mix-blend-difference shadow-[0_0_8px_2px_white] transition-transform duration-75 ease-linear"
+        style={{
+          transform: `translate(${position.x - 8}px, ${position.y - 8}px)`
+        }}
+      ></div>
+
+      <Navbar />
+      <Hero />
+      <About />
+      <Experience />
+      <Skills />
+      <Projects />
+      <Contact />
+      <Footer />
     </>
   )
 }
