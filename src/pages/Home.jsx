@@ -25,11 +25,11 @@ const Home = () => {
 
   return (
     <>
-      <div
-        className="fixed z-[9999] w-4 h-4 bg-white rounded-full pointer-events-none mix-blend-difference shadow-[0_0_8px_2px_white] transition-transform duration-75 ease-linear"
-        style={{
-          transform: `translate(${position.x - 8}px, ${position.y - 8}px)`
-        }}
+       <div
+       className="hidden md:block fixed z-[9999] w-2.5 h-2.5 bg-white rounded-full pointer-events-none mix-blend-difference shadow-[0_0_8px_2px_white] transition-transform duration-75 ease-linear"
+       style={{
+       transform: `translate(${position.x - 5}px, ${position.y - 5}px)`
+       }}
       ></div>
 
       <Navbar />
